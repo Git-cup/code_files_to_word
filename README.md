@@ -26,7 +26,8 @@
    下载并运行get-pip.py脚本：
    ```bash
    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-   ```python get-pip.py
+   python get-pip.py
+   ```
 
 3. **安装`python-docx`库**：
    使用pip安装`python-docx`库。可以通过以下命令安装：
