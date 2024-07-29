@@ -44,7 +44,7 @@
 
 ### 运行代码：
 
-将上述Python脚本保存到一个文件中（例如`write_code_files_to_word.py`），然后在命令行或终端中导航到该文件所在的目录并运行以下命令：
+将Python脚本（`write_code_files_to_word.py`）保存到跟代码文件通过一个文件夹中，然后在命令行或终端中导航到该文件所在的目录并运行以下命令：
 ```bash
 python write_code_files_to_word.py
 ```
@@ -55,7 +55,10 @@ python3 write_code_files_to_word.py
 
 ### 确保代码文件与脚本放在同一目录中：
 
-将你希望脚本处理的代码文件与Python脚本放在同一个目录中。运行脚本时，它会自动在当前目录中查找并处理所有支持的代码文件类型。
+将你希望脚本处理的代码文件与Python脚本放在同一个目录中。运行脚本时，它会自动在当前目录中查找并处理所有支持的代码文件类型，当查找到自己会跳过。示例如下：
+
+![image](https://github.com/user-attachments/assets/b9e917a7-746f-4135-a803-a47579debc73)
+
 
 ### 依赖总结：
 
