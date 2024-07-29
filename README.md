@@ -17,7 +17,18 @@
 1. **安装Python**：
    确保已安装Python 3.6或更高版本。可以在[Python官方网站](https://www.python.org/downloads/)下载并安装最新版本的Python。
 
-2. **安装`python-docx`库**：
+2. **检查pip**：
+   检查是否已安装pip：
+   ```bash
+   pip --version
+   ```
+   安装pip（如未安装）：
+   下载并运行get-pip.py脚本：
+   ```bash
+   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+   ```python get-pip.py
+
+3. **安装`python-docx`库**：
    使用pip安装`python-docx`库。可以通过以下命令安装：
    ```bash
    pip install python-docx
@@ -48,13 +59,14 @@
 ### 运行代码：
 
 将Python脚本（`write_code_files_to_word.py`）保存到跟代码文件通过一个文件夹中，然后在命令行或终端中导航到该文件所在的目录并运行以下命令：
-```bash
-python write_code_files_to_word.py
-```
-或
-```bash
-python3 write_code_files_to_word.py
-```
+
+   ```bash
+   python write_code_files_to_word.py
+   ```
+   或
+   ```bash
+   python3 write_code_files_to_word.py
+   ```
 
 ### 确保代码文件与脚本放在同一目录中：
 
@@ -66,15 +78,15 @@ python3 write_code_files_to_word.py
 ### 依赖总结：
 
 - Python 3.6或更高版本
-- `python-docx`库
+- `python-docx` 库
 
 通过安装和设置上述环境和依赖项，你就可以运行该Python脚本，将当前目录中的代码文件内容写入Word文档，并生成汇总信息。
 
 汇总示例
-```bash
-Total files: 40
-.html files: 13
-.py files: 1
-.java files: 26
-Total lines of code: 27573
-```
+   ```bash
+   Total files: 40
+   .html files: 13
+   .py files: 1
+   .java files: 26
+   Total lines of code: 27573
+   ```
